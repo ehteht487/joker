@@ -1,0 +1,30 @@
+{
+  "name": "joker",
+  "version": "0.1.0",
+  "description": "Application that tells jokes",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehteht487/joker.git"
+  },
+  "keywords": [
+    "jokes"
+  ],
+  "author": "Emilie Herrera Thomsen <emiliethomsen908@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehteht487/joker/issues"
+  },
+  "homepage": "https://github.com/ehteht487/joker#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
